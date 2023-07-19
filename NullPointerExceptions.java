@@ -3,6 +3,7 @@ package exception;
 public class NullPointerExceptions {
 	public static void main(String[] args) {
 		System.out.println("Welcome");
+		System.out.println("Exception try catch....");
 		String name=null;
 		try {
 			System.out.println(name.toUpperCase());
